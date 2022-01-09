@@ -1,0 +1,46 @@
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: purple;
+    background-image: url('./images/orange-bg.jpg');
+}
+
+div {
+    width: 600px;
+    height: 700px;
+    background-color: white;
+    margin: 150px auto;
+    border: 15px solid orange;
+    border-radius: 30px;
+    text-align: center;
+}
+
+img {
+    margin-top: 50px;
+}
+
+h1 {
+    margin: 20px auto;
+    width: 120px;
+    color: orange;
+    border-bottom: 5px solid orange;
+}
+
+ul{
+    width: 120px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li:hover{
+    color: orange;
+}
