@@ -3,33 +3,38 @@ body, ul {
     padding: 0;
 }
 
+img {
+    width:400px;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
 body {
-    background-image: url("./images/orange-bg.jpg");
+    background-image: url("./images/sky-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 2000px;
 }
 
 div {
     width: 600px;
-    height: 650px;
-    background-color: white;
-    margin : 100px auto;
-    border : 15px solid orange;
-    border-radius: 30px;
+    height: 600px;
+    border: 10px solid indianred;
+    background-color: brown;    
+    border-radius: 100%;
     text-align: center;
-}
-
-img { 
-    margin-top: 20px;
-}
+    margin: 100px auto;
+} 
 
 h1 {
     margin: 20px auto;
     width: 120px;
-    color: orange;
-    border-bottom: 5px solid orange;
+    color: salmon;
+    border-bottom: 5px solid darkred;
 }
 
 ul {
-    width: 120px;
+    width: 200px;
     margin: 0 auto;
     text-align: left;
 }
@@ -40,5 +45,5 @@ a {
 }
 
 li:hover{
-    color: orange;
+    color: white;
 }
