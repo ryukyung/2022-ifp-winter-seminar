@@ -1,0 +1,45 @@
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./img/bg_sinamo.jpg');
+}
+
+div {
+    width: 600px;
+    height: 700px;
+    background-color: white;
+    margin: 150px auto;
+    border: 10px solid rgb(109, 168, 255);
+    border-radius: 20px;
+    text-align: center;
+}
+
+img {
+    margin-top: 50px;
+}
+
+h1 {
+    
+    margin: 5px auto;
+    width: 120px;
+    color: rgb(31, 147, 255);
+    
+    
+}
+
+ul{
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(52, 156, 253);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
