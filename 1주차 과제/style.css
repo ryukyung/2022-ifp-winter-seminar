@@ -1,0 +1,34 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./images/school.jpg);
+    background-repeat: no-repeat;
+}
+
+div {
+    width: 400px;
+    height: 600px;
+    background-color: rgb(255, 245, 232);
+    margin: 200px auto;
+    text-align: center;
+    border-radius: 50px;
+    border: 10px solid rgb(56, 136, 255);
+}
+
+h1 {
+    margin: 30px auto;
+    width: 120px;
+    color: rgb(228, 177, 11);
+    border-bottom: 3px solid rgb(56, 136, 255);
+}
+
+ul {
+    width: 100px;
+    margin: 0 auto;
+    text-align: left;
+    
+    color:rgb(16, 50, 102)
+}
