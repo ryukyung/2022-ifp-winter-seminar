@@ -1,0 +1,43 @@
+body {
+  background-image: url("../images/mainbg.jpeg");
+}
+
+div {
+  width: 450px;
+  height: 650px;
+  background-color: white;
+  margin: 150px auto;
+  border: 15px solid burlywood;
+  border-radius: 40px;
+  text-align: center;
+  overflow: hidden;
+}
+
+img {
+  width: 600px;
+}
+
+h1 {
+  margin: 30px auto;
+  width: 150px;
+  color: burlywood;
+  border-bottom: 5px solid burlywood;
+}
+
+ul {
+  width: 130px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 40px;
+  color: black;
+}
+
+li:hover,
+a:hover {
+  color: burlywood;
+}
