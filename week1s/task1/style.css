@@ -1,0 +1,45 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: palegreen;
+    background-image: url('./images/dog-bbg.jpg');
+}
+
+div {
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    margin: 150px auto;
+    border: 15px solid greenyellow;
+    border-radius: 50%;
+    text-align: center;
+}
+
+img {
+    margin-top: 50px;
+}
+
+h1 {
+    margin: 20px auto;
+    width: 120px;
+    color: seagreen;
+    border-bottom: 5px solid seagreen;
+}
+
+ul {
+    width: 120px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li:hover{
+    color: seagreen;
+}
