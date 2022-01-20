@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+body {
+  background-image: url("images/halloween-background.gif");
+  height: 100vh;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.header {
+  background-image: url(images/halloween-header-bg.png);
+  padding-top: 5vh;
+  height: 38vh;
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+  color: violet;
+  margin-bottom: 5px;
+}
+
+.text {
+  background-color: rgba(1, 1, 1, 0.8);
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 10px;
+  line-height: 30px;
+}
+
+.contents {
+  background-color: lightgrey;
+}
+
+.section {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  position: relative;
+}
+
+h2 {
+  color: orangered;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 0;
+  position: relative;
+  z-index: 2;
+}
+
+li {
+  background: url(images/icon-jack2.png) no-repeat 10px 10px;
+  list-style-type: none;
+  padding: 18px 0px 10px 60px;
+}
+
+li:hover {
+  background: url(images/icon-jack.png) no-repeat 10px 10px;
+  color: orangered;
+}
+
+.ico-img {
+  position: absolute;
+  right: 20px;
+  top: 70px;
+  z-index: 1;
+}
+
+.footer {
+  background-color: midnightblue;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 5px;
+  color: violet;
+  font-family: "Times New Roman", Times, serif;
+}
