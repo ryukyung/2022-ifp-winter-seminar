@@ -1,0 +1,61 @@
+body, ul , p, footer {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./images/halloween-background.gif');
+    background-size: cover;
+}
+
+div {
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: 4px;
+    background-image: url('./images/halloween-header-bg.png');
+    background-size: cover;
+}
+
+img {
+    margin-top: 50px;
+
+}
+
+h1 {
+    margin: 10px auto;
+    width: 600px;
+    color: rgb(229, 128, 233);
+    text-align: center;
+}
+
+p {
+    margin: 10px auto;
+    width: 400px;
+    max-width: 100%;
+    padding: 12px;
+    color: rgb(99, 99, 99);
+    background-color: rgb(19, 19, 19);
+    background-size: 600px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+span {
+    display: inline-block;
+    margin: 0 auto;
+    width: 780px;   
+    padding: 10px;
+    color: rgb(229, 128, 233);
+    background-color: rgb(19, 19, 19);
+    background-size: 1200px;
+    text-align: center;
+    letter-spacing: 5px;
+}
