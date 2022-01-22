@@ -1,0 +1,71 @@
+body{
+        background-image: url('./images/halloween-background.gif');
+    }
+
+    .header{
+        background-image: url(./images/halloween-header-bg.png);
+        width: 780px;
+        height: 400px;
+        margin:  auto;
+        border: none;
+        text-align: center;
+    }
+   
+    h1{color: rgb(255, 174, 251)}
+
+      
+    .text {
+        background-color: rgba(0, 0, 0, 0.733);
+        color: white;
+        width: 80%;
+        margin: 0 auto;
+        padding: 15px;
+        border-radius: 10px;
+        line-height: 30px;
+      }
+
+     h2{color:rgb(255, 81, 0)}
+     ul{
+        list-style-image: url(./images/icon-jack2.png);
+        list-style-position: insdie;
+    }
+    li:hover{
+        color: rgb(255, 123, 0);
+        list-style-image: url(./images/icon-jack.png);
+    }
+    
+    
+    .section{ 
+        width: 730px; 
+        height: 210px; 
+        background-color: white;
+        margin: auto;
+        padding: 15px ;
+        text-align: left;
+        border: 10px solid 	lightgray;
+        border-bottom: 10px;
+    }
+
+    .sectionskills{ 
+        width: 730px; 
+        height: 210px; 
+        background-color: white;
+        margin: auto;
+        padding: 15px ;
+        text-align: left;
+        border: 10px solid 	lightgray;
+        border-bottom: 10px;
+    }
+
+    .footer{
+        width: 780px;
+        margin: auto;
+        padding: 2px;
+        border: none;
+        color: rgb(226, 96, 222);
+        background-color: rgba(0,0,0,0.7);
+        text-align: center;
+    } 
+   
+
+    
