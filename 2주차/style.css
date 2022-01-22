@@ -1,0 +1,70 @@
+body {
+    background-image: url(/2주차/images/halloween-background.gif);
+    background-repeat: no-repeat;
+    background-size: 1400px 1000px;
+    margin: 0;
+}
+
+.wrapper {
+    margin: auto 200px;
+}
+
+.header {
+    text-align: center;
+    background-image: url(/2주차/images/halloween-header-bg.png);
+    background-repeat: no-repeat;
+}
+
+.contents{
+    background-color: rgb(211, 211, 211);
+    border: 15px solid rgb(211, 211, 211);
+}
+
+.section{
+    background-color: white;
+    border-bottom: 15px solid rgb(211, 211, 211);
+    padding: 20px;
+}
+
+.section-skills{
+    background-color: white;
+    padding: 20px;
+}
+
+.footer{
+    text-align: center;
+    color: plum;
+}
+
+#box {
+    color: white; 
+    background-color: black;  
+    border-radius: 10px; 
+    margin: auto 100px;
+    padding: 10px;
+}
+
+h1 {
+    color:plum;
+}
+
+h2 {
+    color: orangered;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+ul {
+    margin: 0px;
+    padding-left: 50px;
+}
+
+li {
+    list-style-image: url(/2주차/images/icon-jack2.png);
+
+}
+
+li:hover {
+    list-style-image: url(/2주차/images/icon-jack.png);
+    color: orangered;
+}
