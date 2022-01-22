@@ -1,0 +1,23 @@
+body {
+    background-color: salmon;
+}
+.wrapper {
+    background-color: beige;
+    width: 500px;
+    height: 500px;
+    border: 10px #000000 solid;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.cube {
+
+    background-color: rgb(81, 161, 114);
+    border : 5px white solid;
+    width: 100px;
+    height: 100px;
+    margin: 45px auto;
+}
+.cube.long {
+    border: 5px white dashed;
+    width: 400px;
+}
