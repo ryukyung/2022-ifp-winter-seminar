@@ -1,0 +1,52 @@
+body{
+    margin: 10px;
+    padding: 0px;
+    background-image: url(./images/halloween-background.gif);
+}
+img{ margin: auto; padding: auto; }
+h1{ color: orchid; }
+.header{
+    background-image: url(./images/halloween-header-bg.png);
+    width: 780px;
+    height: 400px;
+    margin:  auto;
+    border: none;
+    text-align: center;
+}
+h2{ color:#ff4500;}
+ul{
+    list-style-image: url(./images/icon-jack2.png);
+    list-style-position: insdie;
+}
+li:hover{
+    color: orange;
+    list-style-image: url(./images/icon-jack.png);
+}
+.section{ 
+    width: 710px; 
+    height: 200px; 
+    background-color: white;
+    margin: auto;
+    padding: 15px ;
+    text-align: left;
+    border: 15px solid 	#dcdcdc;
+    border-bottom: 8px;
+}
+.section_skills{
+    width: 710px; 
+    height: 200px; 
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+    border: 15px solid 	#dcdcdc;
+    text-align: left;
+}
+.footer{
+    width: 780px;
+    margin: auto;
+    padding: 2px;
+    border: none;
+    color: orchid;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+}
