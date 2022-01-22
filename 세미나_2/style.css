@@ -1,0 +1,68 @@
+body{
+    background-image: url(images/halloween-background.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.wrapper {
+    height: 360px;
+    width: 800px;
+    background-image: url(images/halloween-header-bg.png);
+    background-position: center;
+    margin: 30px auto;
+}
+.icon { 
+    margin: 50px 0 0 320px;
+}
+.header{
+    margin-bottom: 10px;
+}
+.header h1 {
+    color: hotpink;
+    text-align: center;
+    margin-top: 0px;
+}
+.header p {
+    background-color: black;
+    color: gray;
+    text-align: center;
+    width: 450px;
+    margin: 0 auto;
+}
+.contents {
+    padding-top: 2px;
+    background-color: gray;
+    height: 450px;
+}
+.section {
+    margin: 20px 20px 0px 20px;
+    padding: 0 0 0 30px;
+    background-color: white;
+    height: 195px;
+    background-position: right 50px center;
+    background-image: url(images/icon-information.png);
+    background-repeat: no-repeat;
+}
+.section.skills{
+    background-image: url(images/icon-skills.png);
+}
+.footer {
+    background-color: black;
+    color: hotpink;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 5px;
+}
+h2 {
+    color: orangered;
+}
+li {
+    background-image: url(images/icon-jack.png);
+    background-repeat: no-repeat;
+    padding: 10px 60px 8px;
+    list-style-type: none;
+}
+li:hover {
+    color: orangered;
+    background-image: url(images/icon-jack2.png);
+}
