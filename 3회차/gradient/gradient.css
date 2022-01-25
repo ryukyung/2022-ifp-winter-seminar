@@ -1,0 +1,33 @@
+body{ 
+    background-color: khaki; 
+    overflow: hidden;
+}
+.circle{
+    margin: 40px auto;
+    background: linear-gradient(0.25turn,#ffb6c1, #f08080,#ffb6c1);
+    border-radius: 100%;
+    border: 5px solid white;
+    width: 600px;
+    height: 600px;
+}
+.square{
+    border: 5px solid white;
+    margin: 27px auto;
+    width: 70px;
+    height: 70px;
+    background-color: #b0e0e6;
+}
+.big{
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    border-color: black;
+    background: linear-gradient(45deg, #b0e0e6,#649cc9 ,#663399);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+}
+.middle{background-color: #649cc9 ;}
+.bottom{background-color: #663399;}
