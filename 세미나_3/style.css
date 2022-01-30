@@ -1,0 +1,39 @@
+body{
+    background-color: khaki;
+}
+.ellipse{
+    background-color: salmon;
+    width: 700px;
+    height: 700px;
+    border-radius: 100%;
+    border: 5px solid white;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+.quad{
+    background: linear-gradient(#8a23f1,#2287da,#93ceff);
+    width: 480px;
+    height: 480px;
+    border: 5px solid black;
+    margin: 0px auto;
+    margin-top: 105px;
+}
+.box{
+    width: 480px;
+    height: 160px;
+    display: flex;
+}
+.cube{
+    background-color: aquamarine;
+    width: 80px;
+    height: 80px;
+    border: 4px solid white;
+    margin: 0px auto;
+    margin-top: 37px;
+}
+.b{
+    background-color: #8173ff;
+}
+.c{
+    background-color: rgb(119, 0, 255);
+}

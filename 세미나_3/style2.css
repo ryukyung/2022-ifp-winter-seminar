@@ -1,0 +1,45 @@
+body{
+    background-color: gray;
+}
+h1{
+    text-align: center;
+}
+.quad{
+    width: 500px;
+    height: 800px;
+    margin: 0px auto;
+    
+}
+.box{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly ;
+}
+.cube{
+    background-color: white;
+    margin-top: 30px;
+    width: 200px;
+    height: 130px;
+}
+.biggest{
+    background-color: tomato;
+    border: 5px solid white;
+    width: 200px;
+    height: 370px;
+    margin-top: 15px;
+    
+}
+.b{
+    background-color: teal;
+}
+.c{
+    background-color: burlywood; 
+}
+.d{
+    background-color: thistle;
+}
+h2{
+    margin-left: 10px;
+    line-height: 60px
+}
