@@ -5,14 +5,38 @@ body {
 }
 
 .circle{
-    background: linear-gradient(rgb(253, 145, 163), pink, rgb(253, 145, 163));
+    background: linear-gradient(rgb(255, 95, 121), pink, rgb(255, 95, 121));
     border:5px solid #ffffff;
     width:600px; height:600px;
-    border-radius:400px;
+    border-radius:100%;
     text-align:center;
-    margin:0 auto;
-    margin-top : 160px;
-    vertical-align:middle;
-    line-height:100px;
+    margin:150px auto;
+    
+}
+.square{
+    background: linear-gradient(45deg, #cbf9ff,#61b2f5 ,#5a23b3);
+    border:5px solid black;
+    width:410px; height:410px;
+    margin:auto;
+    margin-top:90px;
+}
+.square.small{
+    margin:auto;
+    margin-top:45px;
+    width:65px; height:65px;
+    background: rgb(164, 252, 255);
+    border:5px solid white;
 }
 
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.square.small.middle{
+    background: rgb(112, 131, 214);
+}
+
+.square.small.bottom{
+    background: rgb(101, 35, 255);
+}
