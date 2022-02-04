@@ -9,7 +9,7 @@ h1{text-align:center}
 .contents {
     display: flex;
     align-items: center;
-    justify-content: space-around ;
+    justify-content: center ;
     margin: 20px 600px;
 }
 
@@ -19,6 +19,7 @@ h1{text-align:center}
     height: 450px;
     border: 5px solid white;
     position : relative;
+    margin: 7px 15px;
 }
 
 .nametag {
@@ -26,7 +27,7 @@ h1{text-align:center}
     height: 150px;
     margin: 20px;
     background-color: white;
-    position : absolute;
+    position : relative;
     left:-20px;
 }
 
