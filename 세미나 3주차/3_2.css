@@ -18,15 +18,16 @@ h1{text-align:center}
     width: 250px;
     height: 450px;
     border: 5px solid white;
+    position : relative;
 }
 
 .nametag {
     width: 255px;
     height: 150px;
-    margin: 10px;
+    margin: 20px;
     background-color: white;
-    position : relative;
-    right: 12px;
+    position : absolute;
+    left:-20px;
 }
 
 .text{
