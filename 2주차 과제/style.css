@@ -1,5 +1,5 @@
 body {
-    background-image: url(/2주차/images/halloween-background.gif);
+    background-image: url(./images/halloween-background.gif);
     background-repeat: no-repeat;
     background-size: 1400px 1000px;
     margin: 0;
@@ -11,7 +11,7 @@ body {
 
 .header {
     text-align: center;
-    background-image: url(/2주차/images/halloween-header-bg.png);
+    background-image: url(./images/halloween-header-bg.png);
     background-repeat: no-repeat;
 }
 
@@ -22,8 +22,8 @@ body {
 
 .section{
     background-color: white;
-    border-bottom: 15px solid rgb(211, 211, 211);
     padding: 20px;
+    border-bottom: 15px solid rgb(211, 211, 211);
 }
 
 .section-skills{
@@ -36,7 +36,7 @@ body {
     color: plum;
 }
 
-#box {
+p {
     color: white; 
     background-color: black;  
     border-radius: 10px; 
@@ -60,11 +60,11 @@ ul {
 }
 
 li {
-    list-style-image: url(/2주차/images/icon-jack2.png);
+    list-style-image: url(./images/icon-jack2.png);
 
 }
 
 li:hover {
-    list-style-image: url(/2주차/images/icon-jack.png);
+    list-style-image: url(./images/icon-jack.png);
     color: orangered;
 }

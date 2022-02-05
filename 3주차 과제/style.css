@@ -1,0 +1,45 @@
+body {
+    background-color: lightskyblue;
+}
+
+span {
+    display: flex;
+    justify-content: space-around;
+    margin: 19px;
+}
+
+.circle {
+    background-color: pink;
+    border: 3px solid white;
+    border-radius: 1000px;
+    height: 300px;
+    width: 300px;
+    margin: 100px auto;
+}
+
+.square {
+    background: linear-gradient(30deg, rgb(105, 245, 255), rgb(255, 90, 255));
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 50px auto;
+}
+
+.small {
+    background-color: lightblue;
+    border: 3px solid white;
+    height: 35px;
+    width: 35px;
+}
+
+.small.first {
+    background-color: aqua;
+}
+
+.small.second {
+    background-color: plum;
+}
+
+.small.third {
+    background-color: blueviolet;
+}
