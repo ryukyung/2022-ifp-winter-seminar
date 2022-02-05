@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 128, 70);
+}
+.contents {
+    width: 730px; 
+        height: 730px; 
+        background-color: rgb(255, 225, 185);
+        margin: auto;
+        margin-top:30px;
+        border: 5px solid black;
+}
+.section {
+    width: 100px; 
+        height: 100px; 
+        background-color: rgb(46, 160, 206);
+        margin : auto;
+        margin-top : 100px;
+        border: solid 5px  rgb(255, 224, 183);
+
+}
+.section.long {
+    width: 450px; 
+    border-style: dashed;
+}

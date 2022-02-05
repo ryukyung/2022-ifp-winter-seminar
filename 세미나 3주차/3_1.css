@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 242, 184);
+}
+
+.circle{
+    background: linear-gradient(rgb(255, 95, 121), pink, rgb(255, 95, 121));
+    border:5px solid #ffffff;
+    width:600px; height:600px;
+    border-radius:100%;
+    text-align:center;
+    margin:150px auto;
+    
+}
+.square{
+    background: linear-gradient(45deg, #cbf9ff,#61b2f5 ,#5a23b3);
+    border:5px solid black;
+    width:410px; height:410px;
+    margin:auto;
+    margin-top:90px;
+}
+.square.small{
+    margin:auto;
+    margin-top:45px;
+    width:65px; height:65px;
+    background: rgb(164, 252, 255);
+    border:5px solid white;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.square.small.middle{
+    background: rgb(112, 131, 214);
+}
+
+.square.small.bottom{
+    background: rgb(101, 35, 255);
+}
