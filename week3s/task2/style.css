@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(180, 180, 180);
+}
+h1{
+    text-align: center;
+}
+h2{
+    margin: 0px auto;
+    margin-top: 25px;
+    line-height: 55px;
+}
+h3{
+    margin: 0px auto;
+    line-height: 50px;
+}
+.square{
+    width: 500px;
+    height: 600px;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+.display{
+    margin-left: 50px;
+    width: 400px;
+    height: 380px;
+    display: flex;
+    justify-content: space-evenly ;
+}
+.elem {
+    width: 160px;
+    height: 350px;
+    border: 6px solid white;
+}
+.part {
+    background-color: rgb(255, 255, 255);
+}
+.s{
+    background-color: tomato;
+}
+.ss{
+    background-color: teal;
+}
+.sss{
+    background-color: burlywood;
+}
+.ssss{
+    background-color: thistle;
+}
