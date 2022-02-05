@@ -18,9 +18,6 @@ body, ul, .menu, .list {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.904);
 }
-.list {
-    /* position:relative; */
-}
 li {
     font-size: 25px;
     list-style-type: none;
