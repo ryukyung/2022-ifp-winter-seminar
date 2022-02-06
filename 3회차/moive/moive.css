@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.wrapper{ flex-direction: row; }
+.left{
+    background-color: black;
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+h2{ 
+    color: white;
+    text-indent: 30px; 
+}
+h2:hover{ color: #4D54DC; }
+img{
+    width: 1400px;
+    height: 100%;
+    margin-left: 310px;
+}
