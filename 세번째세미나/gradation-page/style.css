@@ -1,16 +1,19 @@
 body {
   background-color: khaki;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 div {
   border: 5px solid white;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 
 .circle {
-  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   width: 500px;
   height: 500px;
   background: linear-gradient(to right, pink, indianred, pink);
@@ -18,7 +21,9 @@ div {
 }
 
 .square {
+  display: flex;
   align-items: stretch;
+  justify-content: space-around;
   flex-direction: column;
   width: 65%;
   height: 65%;
@@ -26,11 +31,14 @@ div {
   border-color: black;
 }
 
-.container {
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   border: none;
 }
 
-.container div {
+.box div {
   width: 70px;
   height: 70px;
 }
