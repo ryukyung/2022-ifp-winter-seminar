@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.bg {
+    margin-left: 20%;
+    width: 80%;
+    height: 1500px;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+li{
+    list-style-type: none;
+    line-height: 50px;
+    color: white;
+}
+li:hover{
+    color: blue;
+}
+.box{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    width: 20%;
+    height: 110%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.top{
+    position:absolute;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+
