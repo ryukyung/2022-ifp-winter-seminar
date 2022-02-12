@@ -1,20 +1,17 @@
 body {
     background-color: lightskyblue;
-}
-
-span {
     display: flex;
-    justify-content: space-around;
-    margin: 19px;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
 }
 
 .circle {
     background-color: pink;
     border: 3px solid white;
-    border-radius: 1000px;
+    border-radius: 50%;
     height: 300px;
     width: 300px;
-    margin: 100px auto;
 }
 
 .square {
@@ -25,6 +22,12 @@ span {
     margin: 50px auto;
 }
 
+span {
+    display: flex;
+    justify-content: space-around;
+    margin: 19px;
+}
+
 .small {
     background-color: lightblue;
     border: 3px solid white;
@@ -32,14 +35,14 @@ span {
     width: 35px;
 }
 
-.small.first {
+.first {
     background-color: aqua;
 }
 
-.small.second {
+.second {
     background-color: plum;
 }
 
-.small.third {
+.third {
     background-color: blueviolet;
 }
