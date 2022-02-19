@@ -11,15 +11,12 @@ body, ul, .menu, .list {
 } 
 .menu {
     width: 200px;
-    height: 1000px;
+    height: 100%;
     position: fixed;
     display: flex;
     /* justify-content: center; */
     align-items: center;
     background-color: rgba(0, 0, 0, 0.904);
-}
-.list {
-    /* position:relative; */
 }
 li {
     font-size: 25px;
@@ -31,5 +28,5 @@ li {
     color: white;
 }
 li:hover{
-    color: rgb(197, 74, 74);
+    color: rgb(197, 74, 74)
 }
