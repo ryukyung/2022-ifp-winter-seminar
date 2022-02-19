@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header {
+    min-height: 100vh; /*최소 높이*/
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), 
+    url(./image/banner.png);
+    background-position: center; /*가운데 정렬*/
+    background-size: cover; /*보이는 창을 다 덮게*/
+}
+
+/* .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_bg {
+    background-image: url(./image/banner.png);
+    background-repeat: no-repeat;
+    height: 2000px;
+    width: 1920px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav > ul > li {
+    padding-left: 30px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 300px auto;
+}
+
+.title > h1 {
+    margin-bottom: 20px;
+} */
+    
