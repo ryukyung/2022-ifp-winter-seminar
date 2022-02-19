@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ghibli</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <h1 class="logo">Studio Ghibli</h1>
+            <ul class="nav-links">
+                <li class="ctn"><a href="#"></a>Contact</li>
+                <li class="active"><a href="#"></a>Home</li>
+                <li><a href="#"></a>Work</li>
+                <li><a href="#"></a>Explore</li>
+                <li><a href="#"></a>About</li>
+                
+            </ul>
+            <img src="./images/menu-btn.png" alt="" class="menu-btn">
+        </nav>
+        <header>
+            <div class="header-content">
+                <h2>A full-length animation</h2>
+                <div class="line"></div>
+                <h1>Hayao Miyazaki</h1>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </header>
+
+        <!-- == Events -->
+        <section class="events">
+            <div class="title">
+                <h1>My Neighbor Totoro</h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="./images/img1.jpg" alt="">
+                    <h4>Representative work</h4>
+                    <p>A 1988 Japanese animation directed by Hayao Miyazaki</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="./images/img2.jpeg" alt="">
+                    <h4>The main scene</h4>
+                    <p>Satsuki and May, who left the city and moved to the countryside, accidentally meet Totoro, a mysterious creature living in the forest, and take a mysterious adventure together. Then one day, the dangerous news arrived at my mother's hospital, and while her sister Satsuki was contacting her father, May went missing...</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="explore">
+            <div class="explore-content">
+                <div class="line"></div>
+                <p>You can watch it on Netflix</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </section>
+
+        <section class="tours">
+            <div class="row">
+                <div class="col content-col">
+                    <h1>Another work</h1>
+                    <div class="line"></div>
+                    <p>Watch a variety of masterpieces</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col image-col">
+                    <div class="image-gallery">
+                        <img src="./images/img3.jfif" alt="">
+                        <img src="./images/img4.jpg" alt="">
+                        <img src="./images/img5.jpg" alt="">
+                        <img src="./images/img6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="footer">
+            <p>Studio Ghibli's first studio building | Phone: 000-123-456 | Email: Ghibli@example.com</p>
+            <p>Copyright ⓒ 2020 Studio Ghibli</p>
+        </section>
+
+        <script>
+            const menuBtn = document.querySelector('.menu-btn')
+            const navlinks = document.querySelector('.nav-links')
+
+            menuBtn.addEventListener('click',()=>{
+                navlinks.classList.toggle('mobile-menu')
+            })
+        </script>
+    </body>
+</html>
