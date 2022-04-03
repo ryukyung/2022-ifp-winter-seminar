@@ -1,0 +1,29 @@
+body{ background-color: lightgrey; overflow: hidden;}
+.header h1{ text-align: center;}
+p{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    margin: 20px 600px;
+}
+.name{
+    width: 205px;
+    height: 105px;
+    margin: 10px;
+    background-color: white;
+    position : relative;
+    right: 11px;
+}
+.square{
+    width: 200px;
+    height: 300px;
+    border: 7px solid white;
+}
+.tomato{ background-color: #ff6347; }
+.teal{ background-color: #008080;}
+.burlywood{ background-color: #deb887;}
+.thistle{ background-color: #d7bfd7;}

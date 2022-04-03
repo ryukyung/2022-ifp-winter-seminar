@@ -1,0 +1,21 @@
+body{
+    background-color: aquamarine;
+}
+.contents{
+    width: 500px;
+    height: 500px;
+    background-color: blanchedalmond;
+    border: 5px solid;
+    margin: auto;
+}
+.section{
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    border: 5px solid aquamarine;
+    margin: 40px auto;
+}
+.section.long{
+    width: 400px;
+    border-style :dashed;
+}
